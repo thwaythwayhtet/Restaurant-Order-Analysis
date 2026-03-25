@@ -23,12 +23,12 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 1. View the menu_items table <br>
 
 2. Find the number of items on the menu.
- > *Num_items = 32*
+   > *Num_items = 32*
 
 
 3. What are the least and most expensive items on the menu?
-  >> The least expensive item = 'Edamame - $5' <br>
-  >> The most expensive item = 'Shrimp Scampi - $19.95' <br>
+   > The least expensive item = 'Edamame - $5' <br>
+   > The most expensive item = 'Shrimp Scampi - $19.95' <br>
 
 4. How many Itlian dishes are on the menu?
   >> Num_Itlian_dishes = 9 <br>
