@@ -85,8 +85,8 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 ![List](----) <br><br>
 
 4. View the details of the highest spend order. What insights can you gather from the results? 
-   > The highest spend order id = 440
-   > 💡Insight: **Italian dishes** contribute the highest order spend, positioning them as top-performing menu items that should be prioritized and consistently maintained. <br>
+   > * The highest spend order id = 440
+   > *💡Insight: **Italian dishes** contribute the highest order spend, positioning them as top-performing menu items that should be prioritized and consistently maintained. <br>
 
 - Detail View <br>
 ![Detail_List](----) <br>
@@ -95,8 +95,8 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 ![List](----) <br><br>
 
 5. View the details 0f the top 5 highest spend orders. What insights can you gather from the results? <br>
-   > The Top 5 highest spend orders = 440, 2075, 1957, 330, 2675
-   > 💡Insight: Based on the top 5 orders analysis, customers with the highest spending tend to purchase **Italian dishes** despite their higher prices against other categories. This indicates strong demand, suggesting that these high-value Italian items should be retained on the menu. Expanding or promoting Italian dishes could further increase overall order value and profitability. <br>
+   > * The Top 5 highest spend orders = 440, 2075, 1957, 330, 2675
+   > *💡Insight: Based on the top 5 orders analysis, customers with the highest spending tend to purchase **Italian dishes** despite their higher prices against other categories. This indicates strong demand, suggesting that these high-value Italian items should be retained on the menu. Expanding or promoting Italian dishes could further increase overall order value and profitability. <br>
 
 - Detail View <br>
 ![Detail_List](----) <br>
