@@ -16,32 +16,31 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 *	Exploratory Data Analysis (EDA)  
 *	Consumer Preference and Trend Analysis <br><br>
 
-## **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
+# **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
 
-🔍 Exploring menu_items table <br>
+**🔍 Exploring menu_items table** <br>
 
 1. View the menu_items table <br>
 
-2. Find the number of items on the menu. <br>
-   >>  Num_items = 32 <br>
+2. Find the number of items on the menu.
+  >> Num_items = 32 <br>
 
-
-3. What are the least and most expensive items on the menu? <br>
+3. What are the least and most expensive items on the menu?
   >> The least expensive item = 'Edamame - $5' <br>
-  >> The most expensive item = 'Shrimp Scampi - $19.95' 
+  >> The most expensive item = 'Shrimp Scampi - $19.95' <br>
 
-* 4. How many Itlian dishes are on the menu? <br>
-  >> Num_Itlian_dishes = 9
+4. How many Itlian dishes are on the menu?
+  >> Num_Itlian_dishes = 9 <br>
 
-* 5. What are the least and most expensive Itlian dishes on the menu? <br>
+5. What are the least and most expensive Itlian dishes on the menu?
   >> The least expensive Itlian dishes = 'Spaghetti - $14.50' <br> 
-  >> The most expensive Itlian dishes = 'Shrimp Scampi - $19.95'
+  >> The most expensive Itlian dishes = 'Shrimp Scampi - $19.95' <br>
 
-* 6. How many dishes are in each category? <br>
+6. How many dishes are in each category?
   >> Num_dishes in each category
 ![Num_dishes](----) <br>
 
-* 7. What is the average dish price within each category? <br>
+7. What is the average dish price within each category?
   >> Avg_dish_price in each category
 ![Avg_price](----) <br><br>
 
