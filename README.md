@@ -39,11 +39,11 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 
 6. How many dishes are in each category?
    > Num_dishes in each category
-![Num_dishes](----) <br>
+![Num_dishes](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/1.6.png) <br>
 
 7. What is the average dish price within each category?
    > Avg_dish_price in each category
-![Avg_price](----) <br><br>
+![Avg_price](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/1.7.png) <br><br>
 
 
 **🔍 Exploring order_details table** <br>
@@ -61,7 +61,7 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 
 5. Which orders had the most number of items? 
    > List of Orders with most number of items
-  ![Order_list](----) <br><br>
+  ![Order_list](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/2.5.png) <br><br>
  
 6. How many orders had more than 12 items? 
    > Num_orders with more than 12 items = 20  <br><br>
@@ -71,35 +71,35 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 
 1. Combine the menu_items and order_details tables into a single table. 
    > Combining two tables with LEFT JOIN
- ![Combine_two](----) <br><br>
+ ![Combine_two](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.1.png) <br><br>
 
    
 2. What were the least and most ordered items? What categories were they in?
    > The least ordered item = 'Hamburger - 622'
    > The most ordered item = 'Chicken Tacos - 123'
- ![List](----) <br><br>
+ ![List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.2.png) <br><br>
 
     
 3. What were the top 5 orders that spent the most money?
    > List of Top 5 Orders with highest spending
-![List](----) <br><br>
+![List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.3.png) <br><br>
 
 4. View the details of the highest spend order. What insights can you gather from the results? 
    > The highest spend order id = 440 <br>
    > 💡**Italian dishes** contribute the highest order spend, positioning them as top-performing menu items that should be prioritized and consistently maintained. <br>
 
 - Detail View <br>
-![Detail_List](----) <br>
+![Detail_List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.4.png) <br>
 
 - By Category wise <br>
-![List](----) <br><br>
+![List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.4.1.png) <br><br>
 
 5. View the details 0f the top 5 highest spend orders. What insights can you gather from the results? <br>
    > The Top 5 highest spend orders = 440, 2075, 1957, 330, 2675 <br>
    > 💡Based on the top 5 orders analysis, customers with the highest spending tend to purchase **Italian dishes** despite their higher prices against other categories. This indicates strong demand, suggesting that these high-value Italian items should be retained on the menu. Expanding or promoting Italian dishes could further increase overall order value and profitability. <br>
 
 - Detail View <br>
-![Detail_List](----) <br>
+![Detail_List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.5.png) <br>
 
 👉 [*Please check out SQL Query Code!*](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/restaurant_order_analysis%20-%20portfolio_project.sql)
 
