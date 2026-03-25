@@ -17,67 +17,99 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 *	Consumer Preference and Trend Analysis <br><br>
 
 **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
+
 🔍 Exploring menu_items table <br>
 
--- 1. View the menu_items table
-SELECT * FROM menu_items;
--- 2. Find the number of items on the menu.
-SELECT COUNT(*) FROM menu_items;
--- 3. What are the least and most expensive items on the menu?
-SELECT 
-    *
-FROM
-    menu_items
-ORDER BY price;
+* 1. View the menu_items table
 
-SELECT 
-    *
-FROM
-    menu_items
-ORDER BY price DESC;
--- 4. How many Itlian dishes are on the menu?
-SELECT 
-    COUNT(*)
-FROM
-    menu_items
-WHERE category = 'Italian';
--- 5. What are the least and most expensive Itlian dishes on the menu?
-SELECT 
-    *
-FROM
-    menu_items
-WHERE category = 'Italian'
-ORDER BY price;
+* 2. Find the number of items on the menu. <br>
+  >> Num_items = 32
 
-SELECT 
-    *
-FROM
-    menu_items
-WHERE category = 'Italian'
-ORDER BY price DESC;
+* 3. What are the least and most expensive items on the menu? <br>
+  >> The least expensive item = 'Edamame - $5' <br>
+  >> The most expensive item = 'Shrimp Scampi - $19.95' 
 
--- 6. How many dishes are in each category?
-SELECT 
-    category,
-    COUNT(item_name) AS number_of_dishes
-FROM
-    menu_items
-GROUP BY category
-ORDER BY category;
+* 4. How many Itlian dishes are on the menu? <br>
+  >> Num_Itlian_dishes = 9
 
--- 7. What is the average dish price within each category?
-SELECT 
-    category, 
-    AVG(price) AS avg_price
-FROM
-    menu_items
-GROUP BY category
-ORDER BY category;
+* 5. What are the least and most expensive Itlian dishes on the menu? <br>
+  >> The least expensive Itlian dishes = 'Spaghetti - $14.50' <br> 
+  >> The most expensive Itlian dishes = 'Shrimp Scampi - $19.95'
+
+* 6. How many dishes are in each category? <br>
+  >> Num_dishes in each category
+![Num_dishes](----) <br>
+
+* 7. What is the average dish price within each category? <br>
+  >> Avg_dish_price in each category
+![Avg_price](----) <br><br>
 
 
+🔍 Exploring order_details table <br>
+
+* 1. View the order_details table.
+  
+* 2. What is the date range of the table?
+ >> date_range = '2023-01-01 to 2023-03-31' <br>
+   
+* 3. How many orders were made within this date range? <br>
+  >> Num_orders = 5,370
+
+* 4. How many items were ordered within this date range? <br>
+  >> Num_order_items = '12234'
+
+* 5. Which orders had the most number of items? <br>
+  >> List of Orders with most number of items
+  ![Order_list](----) <br><br>
+ 
+* 6. How many orders had more than 12 items? <br>
+  >> Num_orders with more than 12 items = 20  <br><br>
+
+
+🔍 Analyze Customer Behaviour <br>
+
+* 1. View the order_details table.
+  
+* 2. What is the date range of the table?
+ >> date_range = '2023-01-01 to 2023-03-31' <br>
+
+* 1. Combine the menu_items and order_details tables into a single table. <br>
+ >> Combining two tables with LEFT JOIN
+ ![Combine_two](----) <br><br>
+
+   
+* 2. What were the least and most ordered items? What categories were they in? <br>
+  >> The least ordered item = 'Hamburger - 622' <br>
+  >> The most ordered item = 'Chicken Tacos - 123'
+ ![List](----) <br><br>
+
+    
+* 3. What were the top 5 orders that spent the most money? <br>
+  >> List of Top 5 Orders with highest spending
+![List](----) <br><br>
+
+* 4. View the details of the highest spend order. What insights can you gather from the results? <br>
+  >> The highest spend order id = 440 <br> 
+  >> 💡Insight: **Italian dishes** contribute the highest order spend, positioning them as top-performing menu items that should be prioritized and consistently maintained. <br>
+
+- Detail View <br>
+![Detail_List](----) <br>
+
+- By Category wise <br>
+![List](----) <br><br>
+
+* 5. View the details 0f the top 5 highest spend orders. What insights can you gather from the results? <br>
+  >> The Top 5 highest spend orders = 440, 2075, 1957, 330, 2675 <br> 
+  >> 💡Insight: Based on the top 5 orders analysis, customers with the highest spending tend to purchase **Italian dishes** despite their higher prices against other categories. This indicates strong demand, suggesting that these high-value Italian items should be retained on the menu. Expanding or promoting Italian dishes could further increase overall order value and profitability. <br>
+
+- Detail View <br>
+![Detail_List](----) <br>
 
 
 
 
-6.2.1 Rating Analysis <br>
- ![Rating 1](https://github.com/thwaythwayhtet/Airbnb-Performance-Dashboard/blob/main/Images/Rating%20Analysis%201.png) <br>
+
+
+
+
+
