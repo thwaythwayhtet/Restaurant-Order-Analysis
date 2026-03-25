@@ -20,10 +20,11 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 
 🔍 Exploring menu_items table <br>
 
-* 1. View the menu_items table <br>
+1. View the menu_items table <br>
 
-* 2. Find the number of items on the menu. <br>
+2. Find the number of items on the menu. <br>
      Num_items = 32
+   <span style="color:gray;"> Num_items = 32 </span>
 
 * 3. What are the least and most expensive items on the menu? <br>
   >> The least expensive item = 'Edamame - $5' <br>
