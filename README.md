@@ -16,7 +16,7 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 *	Exploratory Data Analysis (EDA)  
 *	Consumer Preference and Trend Analysis <br><br>
 
-# **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
+**⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
 
 **🔍 Exploring menu_items table** <br>
 
@@ -24,6 +24,7 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 
 2. Find the number of items on the menu.
   > Num_items = 32 <br>
+> *Note: This is a less important detail*
 
 3. What are the least and most expensive items on the menu?
   >> The least expensive item = 'Edamame - $5' <br>
