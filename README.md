@@ -101,7 +101,7 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 - Detail View <br>
 ![Detail_List](----) <br>
 
-👉 [*Please check out SQL Query Code!*]()
+👉 [*Please check out SQL Query Code!*](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/restaurant_order_analysis%20-%20portfolio_project.sql)
 
 
 
