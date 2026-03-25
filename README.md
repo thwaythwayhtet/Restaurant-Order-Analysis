@@ -85,7 +85,7 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 ![List](----) <br><br>
 
 4. View the details of the highest spend order. What insights can you gather from the results? 
-   > * The highest spend order id = 440
+    * The highest spend order id = 440 <br>
    > *💡Insight: **Italian dishes** contribute the highest order spend, positioning them as top-performing menu items that should be prioritized and consistently maintained. <br>
 
 - Detail View <br>
