@@ -5,28 +5,28 @@
 **🎯 Objective** <br>
 To analyze restaurant order data using SQL in order to uncover sales trends, customer preferences, and operational insights that support data-driven decision-making.  <br><br>
 
-**🗄️ Database** <br>
+**🗄️ Database** 
 *	SQL Platform: MySQL 
 *	Key Tables: menu_items, order_details 
 *	Source: Maven Analytics: [Restaurant Orders Analysis](https://mavenanalytics.io/data-playground/restaurant-orders) <br><br>
 
 
-**🧰 Tools & Skills** <br>
+**🧰 Tools & Skills**
 *	SQL (Joins, Aggregations, Suqueries) 
 *	Exploratory Data Analysis (EDA)  
 *	Consumer Preference and Trend Analysis <br><br>
 
-**⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
+## **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
 
 🔍 Exploring menu_items table <br>
 
 1. View the menu_items table <br>
 
 2. Find the number of items on the menu. <br>
->>  Num_items = 32
+   >>  Num_items = 32 <br>
 
 
-* 3. What are the least and most expensive items on the menu? <br>
+3. What are the least and most expensive items on the menu? <br>
   >> The least expensive item = 'Edamame - $5' <br>
   >> The most expensive item = 'Shrimp Scampi - $19.95' 
 
