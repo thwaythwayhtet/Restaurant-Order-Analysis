@@ -95,8 +95,13 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 ![List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.4.1.png) <br><br>
 
 5. View the details 0f the top 5 highest spend orders. What insights can you gather from the results? <br>
-   > The Top 5 highest spend orders = 440, 2075, 1957, 330, 2675 <br>
+   > The Top 5 highest spend orders = 440, 2075, 1957, 330, 2675 <br> <br>
 💡Based on the top 5 orders analysis, customers with the highest spending tend to purchase **Italian dishes** despite their higher prices against other categories. This indicates strong demand, suggesting that these high-value Italian items should be retained on the menu. Expanding or promoting Italian dishes could further increase overall order value and profitability. <br>
+
+> The top 5 highest-spend orders are: 440, 2075, 1957, 330, 2675.
+
+💡 **Key Insight**  
+Based on the top 5 orders analysis, high-spending customers tend to purchase **Italian dishes**, despite their higher prices compared to other categories. This indicates strong demand, suggesting that these high-value items should be retained on the menu. Expanding or promoting Italian dishes could further increase overall order value and profitability.
 
 > Detail View <br><br>
 ![Detail_List](https://github.com/thwaythwayhtet/Restaurant-Order-Analysis/blob/main/images/3.5.png) <br>
