@@ -23,7 +23,7 @@ To analyze restaurant order data using SQL in order to uncover sales trends, cus
 1. View the menu_items table <br>
 
 2. Find the number of items on the menu.
- > *Num_items = 32* <br>
+ > *Num_items = 32*
 
 
 3. What are the least and most expensive items on the menu?
